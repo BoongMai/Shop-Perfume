@@ -1,0 +1,42 @@
+.header-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.text-header {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.text-header:hover {
+    font-weight:1000;
+}
+
+.header-search {
+}
+
+.header-row {
+
+}
+
+.ant-input-affix-wrapper:hover {
+    border: 1px solid;
+    border-color: #ccc !important;
+}
+
+.ant-input-affix-wrapper:focus{
+    border-color: #ccc !important;
+}
+
+
+/* subnav */
+.text-header:hover .subnav-male {
+    display: block;
+    background-color: red;
+}
+
+.subnav-male {
+}
+
