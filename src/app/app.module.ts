@@ -17,6 +17,9 @@ import { FooterComponent } from './footer/footer.component';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzInputModule } from 'ng-zorro-antd/input';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { OwlModule } from 'ngx-owl-carousel';
+import { MainComponent } from './main/main.component';
 
 registerLocaleData(en);
 
@@ -24,7 +27,8 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
@@ -36,8 +40,9 @@ registerLocaleData(en);
     NgbModule,
     NzLayoutModule,
     NzGridModule,
-    NzInputModule
-
+    NzInputModule,
+    CarouselModule,
+    OwlModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
