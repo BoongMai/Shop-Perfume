@@ -1,11 +1,87 @@
 <owl-carousel-o [options]="Main">
     <ng-template carouselSlide>
-        <img href="../../assets/Imgs/banner1.jpg">
+        <img alt="Banner1" src="../../assets/Imgs/banner1.jpg" />
     </ng-template>
     <ng-template carouselSlide>
-        <img href="../../assets/Imgs/banner2.jpg">
+        <img alt="Banner2" src="../../assets//Imgs/banner2.jpg" />
     </ng-template>
     <ng-template carouselSlide>
-        <img href="../../assets/Imgs/banner3.jpg">
+        <img alt="Banner3" src="../../assets//Imgs/banner3.jpg" />
     </ng-template>
 </owl-carousel-o>
+
+<div style="margin-top:20px; border-top:1px solid #ccc" class="list-review gridStyle">
+    <nz-col>
+        <nz-card nzTitle="Sản phẩm bán chạy">
+            <div nz-card-grid>Content</div>
+            <div nz-card-grid>Content</div>
+            <div nz-card-grid>Content</div>
+        </nz-card>
+    </nz-col>
+</div>
+
+<div style="background: #ECECEC; padding:30px;">
+    <div nz-row [nzGutter]=[16,16]>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+        <div nz-col [nzSpan]="8">
+            <nz-card nzTitle="Card title">
+                <p>Card content</p>
+            </nz-card>
+        </div>
+
+    </div>
+    <nz-row style="margin-top:20px" nzJustify="center" nzAlign="middle">
+        <nz-col>
+            <nz-pagination [nzPageIndex]="1" [nzTotal]="50"></nz-pagination>
+        </nz-col>
+    </nz-row>
+
+</div>

@@ -20,6 +20,8 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OwlModule } from 'ngx-owl-carousel';
 import { MainComponent } from './main/main.component';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { NzPaginationModule } from 'ng-zorro-antd/pagination';
 
 registerLocaleData(en);
 
@@ -42,7 +44,9 @@ registerLocaleData(en);
     NzGridModule,
     NzInputModule,
     CarouselModule,
-    OwlModule
+    OwlModule,
+    NzCardModule,
+    NzPaginationModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

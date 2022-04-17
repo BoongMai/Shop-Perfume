@@ -15,26 +15,34 @@ export class MainComponent implements OnInit {
 
   Main: OwlOptions = {
     loop: true,
-    mouseDrag: false,
-    touchDrag: false,
-    pullDrag: false,
-    dots: false,
-    navSpeed: 700,
-    navText: ['', ''],
+    mouseDrag: true,
+    //stagePadding: 10,
+    touchDrag: true,
+    pullDrag: true,
+    dots: true,
+    autoplay:true,
+    autoplayTimeout:8000,
+    autoplayHoverPause:true,
+    navSpeed: 50,
+    navText: ['<', '>'],
     responsive: {
-      0: {
+    0: {
         items: 1
-      },
-      400: {
+    },
+    180: {
         items: 2
       },
-      740: {
+    100: {
         items: 3
       },
-      940: {
+    30: {
         items: 4
-      }
     },
+    200: {
+      items: 1
+    }
+  },
     nav: true
   }
+
 }
